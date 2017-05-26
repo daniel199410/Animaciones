@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.content-bars{
+    height: 70%; 
+    width: 80%; 
+    margin-top: 15%; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-pack: distribute; 
+        justify-content: space-around; 
+    overflow: hidden
+}
+.wrapper{
+    width: 200px;
+    height: 200px;
+    background-color: #2196F3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 250px;
+}   
+.bar{
+    width: 40px;
+    height: 140px;
+    background-color: #fff;
+    position: relative;
+}
+
+.a1{
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: slidein;
+            animation-name: slidein;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+
+.a2{
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: slideout;
+            animation-name: slideout;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+
+.radious{
+    border-radius: 5px;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+@-webkit-keyframes slidein {
+    from  {top:-50%}
+    to  {top:0px;}
+}
+
+@keyframes slidein {
+    from  {top:-50%}
+    to  {top:0px;}
+}
+
+@-webkit-keyframes slideout {
+    from  {top:0%;}
+    to  {top:-50%}
+}
+
+@keyframes slideout {
+    from  {top:0%;}
+    to  {top:-50%}
+}
