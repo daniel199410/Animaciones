@@ -1,0 +1,49 @@
+.container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.circle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.top{
+    left: 38%
+}
+.left{
+    top: 40%;
+}
+.bottom{
+    bottom: 0;
+}
+.right{
+    right: 0
+}
+.amber{
+    background-color: #FFB300;
+}
+.blue{
+    background-color: #0277BD;
+}
+.rotate{
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: rotate;
+            animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+}
+@-webkit-keyframes rotate{
+    0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    70% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+    100% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+}
+@keyframes rotate{
+    0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    70% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+    100% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+}
