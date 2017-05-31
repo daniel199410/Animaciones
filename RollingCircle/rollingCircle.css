@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bar{
+    height: 100px;
+    width: 10px;
+}
+
+.barContainer{
+    display: flex;
+    position: absolute;
+    top: -15px;
+    left: 77px;
+    height: 200px;
+}
+
+.barContainer .tapa{
+    background-color: white;
+    height: 100px;
+    width: 17px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.blue-darken-4{
+    background-color: #0d47a1;
+}
+.blue-darken-3{
+    background-color: #1565c0;
+}
+.blue-darken-2{
+    background-color: #1976d2;
+}
+.blue-darken-1{
+    background-color: #1e88e5;
+}
+.blue{
+    background-color: #2196f3;
+}
+.blue-lighten-1{
+    background-color: #42a5f5;
+}
+.blue-lighten-2{
+    background-color: #64b5f6;
+}
+.blue-lighten-3{
+    background-color: #90caf9;
+}
+.blue-lighten-4{
+    background-color: #bbdefb;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.deg-20{
+    transform: rotate(20deg);
+}
+.deg-40{
+    transform: rotate(40deg);
+}
+.deg-60{
+    transform: rotate(60deg);
+}
+.deg-80{
+    transform: rotate(80deg);
+}
+.deg-100{
+    transform: rotate(100deg);
+}
+.deg-120{
+    transform: rotate(120deg);
+}
+.deg-140{
+    transform: rotate(140deg);
+}
+.deg-160{
+    transform: rotate(160deg);
+}
+.deg-180{
+    transform: rotate(180deg);
+}
+.deg-200{
+    transform: rotate(200deg);
+}
+.deg-220{
+    transform: rotate(220deg);
+}
+.deg-240{
+    transform: rotate(240deg);
+}
+.deg-260{
+    transform: rotate(260deg);
+}
+.deg-280{
+    transform: rotate(280deg);
+}
+.deg-300{
+    transform: rotate(300deg);
+}
+.deg-320{
+    transform: rotate(320deg);
+}
+.deg-340{
+    transform: rotate(340deg);
+}
+
+.innerContainer{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.invertedTinyBar{
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    left: -7px;
+}
+
+.rotate{
+    animation-duration: 1s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    100%{transform: rotate(370deg);}
+}
+
+.tapa{
+    z-index: 1000;
+    top: 0; 
+    left: -3px;
+}
+
+.tinyBar{
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    left: 12px;
+}
