@@ -9,6 +9,8 @@
 }
 
 .barContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
     top: -15px;
@@ -60,55 +62,72 @@
 }
 
 .deg-20{
-    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
 }
 .deg-40{
-    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
 }
 .deg-60{
-    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
 }
 .deg-80{
-    transform: rotate(80deg);
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
 }
 .deg-100{
-    transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+            transform: rotate(100deg);
 }
 .deg-120{
-    transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
 }
 .deg-140{
-    transform: rotate(140deg);
+    -webkit-transform: rotate(140deg);
+            transform: rotate(140deg);
 }
 .deg-160{
-    transform: rotate(160deg);
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
 }
 .deg-180{
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 .deg-200{
-    transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+            transform: rotate(200deg);
 }
 .deg-220{
-    transform: rotate(220deg);
+    -webkit-transform: rotate(220deg);
+            transform: rotate(220deg);
 }
 .deg-240{
-    transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+            transform: rotate(240deg);
 }
 .deg-260{
-    transform: rotate(260deg);
+    -webkit-transform: rotate(260deg);
+            transform: rotate(260deg);
 }
 .deg-280{
-    transform: rotate(280deg);
+    -webkit-transform: rotate(280deg);
+            transform: rotate(280deg);
 }
 .deg-300{
-    transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+            transform: rotate(300deg);
 }
 .deg-320{
-    transform: rotate(320deg);
+    -webkit-transform: rotate(320deg);
+            transform: rotate(320deg);
 }
 .deg-340{
-    transform: rotate(340deg);
+    -webkit-transform: rotate(340deg);
+            transform: rotate(340deg);
 }
 
 .innerContainer{
@@ -129,14 +148,22 @@
 }
 
 .rotate{
-    animation-duration: 1s;
-    animation-name: rotate;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: rotate;
+            animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate{
+    100%{-webkit-transform: rotate(370deg);transform: rotate(370deg);}
 }
 
 @keyframes rotate{
-    100%{transform: rotate(370deg);}
+    100%{-webkit-transform: rotate(370deg);transform: rotate(370deg);}
 }
 
 .tapa{
