@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 0;
+}
+.circle-2{
+    right: 80px;
+}
+.circle-3{
+    right: 0;
+}
+
+.yellow{
+    background-color: #ffc107;
+}
+.blue{
+    background-color: #2196f3;
+}
+.green{
+    background-color: #8bc34a;
+}
+
+/*Animaciones*/
+.circle-1{
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: circle1;
+            animation-name: circle1;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes circle1{
+    50%{-webkit-transform: translateY(-60px);transform: translateY(-60px)}
+}
+
+@keyframes circle1{
+    50%{-webkit-transform: translateY(-60px);transform: translateY(-60px)}
+}
+
+.circle-2{
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: circle2;
+            animation-name: circle2;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
+}
+
+@-webkit-keyframes circle2{
+    50%{-webkit-transform: translateY(-60px);transform: translateY(-60px)}
+}
+
+@keyframes circle2{
+    50%{-webkit-transform: translateY(-60px);transform: translateY(-60px)}
+}
+
+.circle-3{
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: circle2;
+            animation-name: circle2;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-delay: 400ms;
+            animation-delay: 400ms;
+}
+
+@-webkit-keyframes circle3{
+    50%{-webkit-transform: translateY(-60px);transform: translateY(-60px)}
+}
+
+@keyframes circle3{
+    50%{-webkit-transform: translateY(-60px);transform: translateY(-60px)}
+}
